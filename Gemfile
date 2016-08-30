@@ -56,7 +56,17 @@ group :production do
 	gem 'pg'
 end
 
+# Adding CarrierWave for image upload
+gem "carrierwave"
+gem "mini_magick"
 
+# Adding will_paginate
+gem 'will_paginate', '~> 3.1.0'
 
+# Adding PaperClip for files
+gem "paperclip", "~> 5.0.0.beta1"
+
+# Adding AWS S3 Support
+gem 'aws-sdk', '~> 2.3'
 
 
