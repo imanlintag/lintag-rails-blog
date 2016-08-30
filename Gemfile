@@ -52,8 +52,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# Adding Bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'autoprefixer-rails'
+
 # Adding Devise for user
-gem 'devise'
+gem 'devise', '~> 4.2.0'
 
 # Adding CarrierWave for image upload
 gem "carrierwave"
