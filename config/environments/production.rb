@@ -22,17 +22,7 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
-  # config/environments/production.rb
-  config.paperclip_defaults = {
-  storage: :s3,
-  s3_credentials: {
-    bucket: ENV.fetch('lintag-website-rails'),
-    access_key_id: ENV.fetch('AWSAccessKeyId=AKIAIKSY3NHN2Z7GSUAQ'),
-    secret_access_key: ENV.fetch('AWSSecretKey=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'),
-    s3_region: ENV.fetch('us'),
-  }
-}
-
+  
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
