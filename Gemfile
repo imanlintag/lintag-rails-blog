@@ -47,9 +47,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.2.0'
 
-# Gemfile
-gem 'paperclip'
-gem 'aws-sdk', '~> 2.3'
 
 group :development do
 	gem 'sqlite3'
@@ -59,12 +56,7 @@ group :production do
 	gem 'pg'
 end
 
-# Adding CarrierWave for image upload
-gem "carrierwave"
-gem "mini_magick"
 
-# Adding will_paginate
-gem 'will_paginate', '~> 3.1.0'
 
 
 
