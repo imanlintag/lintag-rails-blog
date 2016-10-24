@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :create_users
   devise_for :admins
   devise_for :users
 	resources :posts do
