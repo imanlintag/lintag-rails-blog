@@ -4,7 +4,13 @@ class PostsController < ApplicationController
   
     def index
       @post = Post.all.order('created_at DESC')
+
+      respond_to do |format|
+        format.html
+        format.atom
+      end
     end
+  
     
     def new
       @post = Post.new

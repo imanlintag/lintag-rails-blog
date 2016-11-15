@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/new'
+
   devise_for :create_users
   devise_for :admins
   devise_for :users

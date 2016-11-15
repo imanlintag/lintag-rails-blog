@@ -1,3 +1,7 @@
+<%= content_for :head, auto_discovery_link_tag(:atom, posts_url(format: "atom")) %> 
+
+<%= link_to image_tag("feed-icon-28x28.png"), posts_url(format: "atom") %> 
+
 <% @post.each do |post| %>
     <div class="post_wrapper">
         <h2 class="title"><%= link_to post.title, post%></h2>
