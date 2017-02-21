@@ -1,24 +1,5 @@
-# README
+# My personal website 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![alt tag](https://cloud.githubusercontent.com/assets/15330574/23149121/b9657a7e-f79e-11e6-8c9a-1e72010da21a.png)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![alt tag](https://cloud.githubusercontent.com/assets/15330574/23149123/bae6e13a-f79e-11e6-95f1-8ae0debbc92f.png)
